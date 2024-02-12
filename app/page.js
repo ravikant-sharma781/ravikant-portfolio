@@ -45,7 +45,7 @@ export default function Home() {
             <div className="">
               <div className="mt-28">
                 <div><p className="text-xl px-1 text-teal-600">Hi! <span>👋</span></p></div>
-                <div><h1 className="text-5xl py-2 font-medium md:text-6xl">I'm <span className="text-teal-600">Ravikant Sharma</span></h1>
+                <div><h1 className="text-5xl py-2 font-medium md:text-6xl">I&apos;m <span className="text-teal-600">Ravikant Sharma</span></h1>
                 </div>
                 <div>
                   <TypeAnimation
@@ -75,7 +75,7 @@ export default function Home() {
             </div>
 
             <div className="relative bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-10 overflow-hidden md:h-96 md:w-96">
-              <Image src={photo} layout="fill" objectFit="contain" />
+              <Image src={photo} alt="img" layout="fill" objectFit="contain" />
             </div>
           </div>
         </section>
@@ -101,7 +101,7 @@ export default function Home() {
               <div title="C++" className="dark:bg-gray-800 rounded-xl p-5 bg-gray-300 transition hover:-translate-y-1"><CplusplusOriginal color="red" size="60" /></div>
               <div title="My SQL" className="dark:bg-gray-800 rounded-xl p-5 bg-gray-300 transition hover:-translate-y-1"><MysqlOriginal color="red" size="60" /></div>
               <div title="GitHub" className="dark:bg-gray-800 rounded-xl p-5 bg-gray-300 transition hover:-translate-y-1"><GithubOriginal color="red" size="60" /></div>
-              <div title="Video Editing" className="dark:bg-gray-800 rounded-xl p-5 bg-gray-300 transition hover:-translate-y-1"><Image src={video} width={55} height={55} className="" /></div>
+              <div title="Video Editing" className="dark:bg-gray-800 rounded-xl p-5 bg-gray-300 transition hover:-translate-y-1"><Image src={video} alt="img" width={55} height={55} className="" /></div>
             </div>
           </div>
         </section>
@@ -114,7 +114,7 @@ export default function Home() {
           <div>
             <h3 className="text-3xl pt-3 w-64 border-b border-teal-400">My Recent Work</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-400">
-              Here are some of my Development projects I've worked on.
+              Here are some of my Development projects I&apos;ve worked on&#x2024;
             </p>
           </div>
 
@@ -122,7 +122,7 @@ export default function Home() {
             <div className="basis-1/4 flex-1 border border-gray-700 p-7 rounded-3xl flex flex-col justify-between shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)]">
               <div>
                 <div>
-                  <Image src={Ecoleaf} className="rounded-lg object-cover" width={'100'} height={'100'} layout="responsive" />
+                  <Image src={Ecoleaf} alt="img" className="rounded-lg object-cover" width={'100'} height={'100'} layout="responsive" />
                 </div>
                 <div>
                   <h2 className="text-xl pt-5">EcoLeaf: Health tracker app</h2>
@@ -138,11 +138,11 @@ export default function Home() {
             <div className="basis-1/4 flex-1 border border-gray-700 p-7 rounded-3xl flex flex-col justify-between shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)]">
               <div>
                 <div>
-                  <Image src={gpt3} className="rounded-lg object-cover" width={'100'} height={'100'} layout="responsive" />
+                  <Image src={gpt3} alt="img" className="rounded-lg object-cover" width={'100'} height={'100'} layout="responsive" />
                 </div>
                 <div>
                   <h2 className="text-xl pt-5">Modified frontend of chatGPT-3</h2>
-                  <p className="text-sm pt-3 leading-6 text-gray-800 dark:text-gray-400">React.js | Tailwind CSS | Javascript</p>
+                  <p className="text-sm pt-3 leading-6 text-gray-800 dark:text-gray-400">React&#x2024;js | Tailwind CSS | Javascript</p>
                 </div>
               </div>
               <div className="flex flex-col lg:flex-row gap-5 justify-around pt-10">
@@ -154,11 +154,11 @@ export default function Home() {
             <div className="basis-1/4 flex-1 border border-gray-700 p-7 rounded-3xl flex flex-col justify-between shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)]">
               <div>
                 <div>
-                  <Image src={restaurant} className="rounded-lg object-cover" width={'100'} height={'100'} layout="responsive" />
+                  <Image src={restaurant} alt="img" className="rounded-lg object-cover" width={'100'} height={'100'} layout="responsive" />
                 </div>
                 <div>
                   <h2 className="text-xl pt-5">Gericht: Restaurant Website</h2>
-                  <p className="text-sm pt-3 leading-6 text-gray-800 dark:text-gray-400">React.js | Tailwind CSS | JavaScript</p>
+                  <p className="text-sm pt-3 leading-6 text-gray-800 dark:text-gray-400">React&#x2024;js | Tailwind CSS | JavaScript</p>
                 </div>
               </div>
               <div className="flex flex-col lg:flex-row gap-5 justify-around pt-10">
@@ -169,7 +169,7 @@ export default function Home() {
             <div className="basis-1/4 flex-1 border border-gray-700 p-7 rounded-3xl flex flex-col justify-between shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)]">
               <div>
                 <div>
-                  <Image src={taskList} className="rounded-lg object-cover" width={'100'} height={'100'} layout="responsive" />
+                  <Image src={taskList} alt="img" className="rounded-lg object-cover" width={'100'} height={'100'} layout="responsive" />
                 </div>
                 <div>
                   <h2 className="text-xl pt-5">Multi color ToDO list</h2>
@@ -184,11 +184,11 @@ export default function Home() {
             <div className="basis-1/4 flex-1 border border-gray-700 p-7 rounded-3xl flex flex-col justify-between shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)]">
               <div>
                 <div>
-                  <Image src={youtube} className="rounded-lg object-cover" width={'100'} height={'100'} layout="responsive" />
+                  <Image src={youtube} alt="img" className="rounded-lg object-cover" width={'100'} height={'100'} layout="responsive" />
                 </div>
                 <div>
                   <h2 className="text-xl pt-5">YouTube Clone with Searching and Auto Suggestion</h2>
-                  <p className="text-sm pt-3 leading-6 text-gray-800 dark:text-gray-400">React.Js | Restful API | Tailwind | JavaScript</p>
+                  <p className="text-sm pt-3 leading-6 text-gray-800 dark:text-gray-400">React&#x2024;Js | Restful API | Tailwind | JavaScript</p>
                 </div>
               </div>
               <div className="flex flex-col lg:flex-row gap-5 justify-around pt-10">
@@ -199,11 +199,11 @@ export default function Home() {
             <div className="basis-1/4 flex-1 border border-gray-700 p-7 rounded-3xl flex flex-col justify-between shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)]">
               <div>
                 <div>
-                  <Image src={portfolio} className="rounded-lg object-cover" width={'100'} height={'100'} layout="responsive" />
+                  <Image src={portfolio} alt="img" className="rounded-lg object-cover" width={'100'} height={'100'} layout="responsive" />
                 </div>
                 <div>
                   <h2 className="text-xl pt-5">Personal Portfolio</h2>
-                  <p className="text-sm pt-3 leading-6 text-gray-800 dark:text-gray-400">Next.Js | Tailwind | JavaScript | Vercel | HTML | CSS</p>
+                  <p className="text-sm pt-3 leading-6 text-gray-800 dark:text-gray-400">Next&#x2024;Js | Tailwind | JavaScript | Vercel | HTML | CSS</p>
                 </div>
               </div>
               <div className="flex flex-col lg:flex-row gap-5 justify-around pt-10">
@@ -228,14 +228,14 @@ export default function Home() {
               </div>
               <div className="w-2/4">
                 <h3 className="text-2xl mb-2">Video Editing</h3>
-                <p className="text-md pt-3 leading-6 text-gray-800 dark:text-gray-400">Get your videos edited just the way you want! I'll craft something amazing that's easy to watch and looks fantastic. Let's make your content stand out!</p>
+                <p className="text-md pt-3 leading-6 text-gray-800 dark:text-gray-400">Get your videos edited just the way you want! I&apos;ll craft something amazing that&apos;s easy to watch and looks fantastic&#x2024; Let&apos;s make your content stand out!</p>
               </div>
             </div>
 
             <div className="flex justify-around p-10 items-center">
               <div className="w-2/4">
                 <h3 className="text-2xl mb-2">Web Development</h3>
-                <p className="text-md pt-3 leading-6 text-gray-800 dark:text-gray-400">Get a website made just for you! I'll create something awesome that's easy to use and looks great. Let's make your online presence shine!</p>
+                <p className="text-md pt-3 leading-6 text-gray-800 dark:text-gray-400">Get a website made just for you! I&apos;ll create something awesome that&apos;s easy to use and looks great&#x2024; Let&apos;s make your online presence shine!</p>
               </div>
               <div className="flex justify-center w-1/2">
                 <Lottie animationData={webdesign} style={{ height: 400, width: 400 }} />
@@ -249,16 +249,16 @@ export default function Home() {
           <div>
             <h3 className="text-3xl pt-3 mt-10 w-36 border-b border-teal-400">YouTube</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-400">
-              Self-managed videos from my YouTube channel, entirely overseen and handled by me.
+              Self&#8209;managed videos from my YouTube channel&#8218; entirely overseen and handled by me&#x2024;
             </p>
           </div>
           <div className="flex flex-col py-10 gap-10 lg:flex-row lg:flex-wrap md:flex-row md:flex-wrap">
             <div className="basis-1/4 flex-1 border border-gray-700 p-7 rounded-3xl flex flex-col justify-between shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)]">
               <div className="aspect-w-9 aspect-h-5 w-full">
-                <iframe src="https://www.youtube.com/embed/bnkL-MIMNnc?start=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/bnkL-MIMNnc?start=0" alt="YTvideo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
               <div>
-                <h2 className="text-xl pt-5">A.I Models</h2>
+                <h2 className="text-xl pt-5">A&#x2024;I Models</h2>
                 {/* <p className="text-sm pt-3 leading-6 text-gray-800 dark:text-gray-400">Learn how to create a Course Listing API using React.js, Tailwind CSS, Express.js, Node.js, and MongoDB.</p> */}
               </div>
               <div className="flex flex-col lg:flex-row gap-5 justify-around pt-10">
@@ -267,7 +267,7 @@ export default function Home() {
             </div>
             <div className="basis-1/4 flex-1 border border-gray-700 p-7 rounded-3xl flex flex-col justify-between shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)]">
               <div class="aspect-w-9 aspect-h-5 w-full">
-                <iframe src="https://www.youtube.com/embed/HliYUl-UCTc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/HliYUl-UCTc" alt="YTvideo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
               <div>
                 <h2 className="text-xl pt-5">C++ Vs Java</h2>
@@ -279,7 +279,7 @@ export default function Home() {
             </div>
             <div className="basis-1/4 flex-1 border border-gray-700 p-7 rounded-3xl flex flex-col justify-between shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)]">
               <div class="aspect-w-9 aspect-h-5 w-full">
-                <iframe src="https://www.youtube.com/embed/Jb0MNpjlFPU" frameborder="0" allow="accelerometer, autoplay, clipboard-write, encrypted-media, gyroscope, picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/Jb0MNpjlFPU" alt="YTvideo" frameborder="0" allow="accelerometer, autoplay, clipboard-write, encrypted-media, gyroscope, picture-in-picture" allowfullscreen></iframe>
               </div>
               <div>
                 <h2 className="text-xl pt-5">Venture Capital</h2>
@@ -302,11 +302,12 @@ export default function Home() {
           <hr className="mt-20" />
           <div className="flex flex-col lg:flex-row md:flex-row items-center justify-around">
             <div className="p-3">
-              <p className="text-md text-teal-500 leading-8">Feel free to Contact me :)</p>
-              <p className="text-sm mt-0 text-gray-800 dark:text-gray-400 leading-5">ravikants781@gmail.com <br /> +91 8295463550</p>
+              <p className="text-md text-teal-500 leading-8">Feel free to Contact me </p>
+              <p className="text-sm mt-0 text-gray-800 dark:text-gray-400 leading-5">ravikants781@gmail&#x2024;com <br /> +91 8295463550</p>
             </div>
             <div className="">
-              <p className="text-sm text-center text-gray-800 dark:text-gray-400">2024 - Ravikant Sharma, All rights reserved</p>
+              <p className="text-sm text-center text-gray-800 dark:text-gray-400">2024 &#8209; Ravikant Sharma&#8218;
+                All rights reserved</p>
             </div>
           </div>
         </footer>
