@@ -208,7 +208,7 @@ export default function Home() {
               </div>
               <div className="flex flex-col lg:flex-row gap-5 justify-around pt-10">
                 <div><a className="text-teal-700 hover:text-white dark:hover:text-gray-800 border border-teal-700 hover:bg-gradient-to-r from-cyan-500 to-teal-500 font-medium px-3.5 py-1.5 rounded-3xl my-5" href="" target="_blank">Live Preview</a></div>
-                <div><a className="text-teal-700 hover:text-white dark:hover:text-gray-800 border border-teal-700 hover:bg-gradient-to-r from-cyan-500 to-teal-500 font-medium px-3.5 py-1.5 rounded-3xl my-5" href="" target="_blank">Check on GitHub</a></div>
+                <div><a className="text-teal-700 hover:text-white dark:hover:text-gray-800 border border-teal-700 hover:bg-gradient-to-r from-cyan-500 to-teal-500 font-medium px-3.5 py-1.5 rounded-3xl my-5" href="https://github.com/ravikant-sharma781/ravikant-portfolio" target="_blank">Check on GitHub</a></div>
               </div>
             </div>
           </div>
