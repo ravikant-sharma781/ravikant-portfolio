@@ -37,7 +37,7 @@ export default function Home() {
               <BsFillMoonStarsFill onClick={() => SetDarkMode(!darkMode)} className="cursor-pointer text-2xl" />
             </div>
             <div>
-              <a className="text-teal-700 dark:hover:text-gray-800 dark:text-teal-700 hover:text-white border border-teal-700 dark:border-teal-700 hover:bg-gradient-to-r from-cyan-500 to-teal-500 font-medium px-3.5 py-1.5 rounded ml-8 hover:text-black dark:hover:text-white" href="https://drive.google.com/file/d/1cd5V1-rhThj9JDt8JK6U9nbzXn1Ict1C/view?usp=sharing" target="_blank">Resume</a>
+              <a className="text-teal-700 dark:hover:text-gray-800 dark:text-teal-700 hover:text-white border border-teal-700 dark:border-teal-700 hover:bg-gradient-to-r from-cyan-500 to-teal-500 font-medium px-3.5 py-1.5 rounded ml-8 hover:text-black dark:hover:text-white" href="https://drive.google.com/file/d/1RmX1G_eokTDD3lEZW8o5grckIGu_0MP2/view?usp=sharing" target="_blank">Resume</a>
             </div>
           </div>
 
